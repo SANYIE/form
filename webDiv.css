@@ -1,0 +1,171 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+.heading{
+  text-align: center;
+  padding: 40px 0;
+}
+.form-container{
+  width: 95%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 15px;
+}
+.form-two{
+  width: 100%;
+  display: flex;
+}
+.form-logo{
+  background-image: url(img/photo.avif);
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: .5;
+  padding: 3rem;
+}
+
+.form-logo-bg{
+  background-color: rgba(0, 0,0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  margin-top: 8rem;
+}
+.form-logo-bg img{
+  width: 60px;
+}
+.form-logo-bg p{
+  color: #fff;
+  font-family:'Gill Sans', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.form{
+  background-color: #e4e1e1;
+  padding: 10px;
+  flex:1
+}
+.form-details{
+  padding: 20px;
+}
+.form-details h2{
+  font-size: 22px;
+  color: #000;
+  line-height: 35px;
+}
+.form-details p{
+  font-size: 22px;
+  color: #000;
+  margin-top: 20px;
+}
+.form-info p{
+  font-size: 22px;
+  color: #000;
+
+}
+.form-info{
+  background-color: #fff;
+  padding: 20px ;
+}
+.forms-content{
+  background-color: #fff;
+  padding: 20px;
+}
+.forms-content label{
+  color: #000;
+}
+.forms-content input{
+  padding: 10px;
+  margin: 10px 0;
+}
+.forms-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.forms-content .lable1{
+  flex: 1;
+  padding: 10px 0;
+}
+.forms-content .lable2{
+  flex: 1;
+  padding: 10px 0;
+}
+.form-account{
+  margin: 20px;
+}
+.form-account button{
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: green;
+  color: #fff;
+  transition: .5s;
+}
+.form-account button:hover{
+ transform: scale(1.05);
+ background-color: #000;
+}
+.form-account p{
+  margin-top: 10px;
+  font-size: 22px;
+}
+.form-account a{
+  text-decoration: none;
+  color: green;
+}
+.form-account a:hover{
+ color: rgb(38, 179, 54);
+}
+.footer{
+  background-color: black;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+.footer-content{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #fff;
+}
+.footer-content p{
+ font-size: 15px;
+}
+@media screen and (min-width:500px) {
+  
+  .form-two{
+    flex-direction: column;
+  }
+
+  .form-logo{
+   height: 100vh;
+  }
+  
+  .form-logo-bg{
+    padding: 30px 0;
+    margin-top: 0;
+  }
+  
+}
+@media screen and (min-width:900px) {
+  
+  .form-container{
+    display: flex;
+  }
+  .form-two{
+   flex-direction: row;
+  }
+  .footer-content p{
+    font-size: 22px;
+   }
+  
+}
